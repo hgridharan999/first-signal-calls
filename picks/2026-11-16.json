@@ -1,0 +1,494 @@
+{
+  "as_of": [
+    "solid-state-electrolytes: SEC data through 2026 Q1, replay generated 2026-11-14T00:13:34Z",
+    "perovskite-solar-cells: SEC data through 2026 Q1, replay generated 2026-11-14T00:44:05Z",
+    "quantum-sensing: SEC data through 2026 Q1, replay generated 2026-11-13T06:05:59Z",
+    "crispr-diagnostics: SEC data through 2026 Q1, replay generated 2026-11-14T00:23:06Z",
+    "direct-air-capture: SEC data through 2026 Q1, replay generated 2026-11-14T00:32:04Z"
+  ],
+  "caveat": "A pick predicts a first Form D filing, not a priced round.",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T23:42:57Z",
+  "kind": "weekly",
+  "model_card": {
+    "crispr-diagnostics": {
+      "auc": 0.7288160623858057,
+      "target": "First high-match Form D filing within 24 months after the SEC data date (Mar 2026)",
+      "top_decile_lift": 2.8521126760563376,
+      "version": "fs-serve-08d9890c"
+    },
+    "direct-air-capture": {
+      "auc": 0.7288160623858057,
+      "target": "First high-match Form D filing within 24 months after the SEC data date (Mar 2026)",
+      "top_decile_lift": 2.8521126760563376,
+      "version": "fs-serve-08d9890c"
+    },
+    "perovskite-solar-cells": {
+      "auc": 0.7288160623858057,
+      "target": "First high-match Form D filing within 24 months after the SEC data date (Mar 2026)",
+      "top_decile_lift": 2.8521126760563376,
+      "version": "fs-serve-08d9890c"
+    },
+    "quantum-sensing": {
+      "auc": 0.7288160623858057,
+      "target": "First high-match Form D filing within 24 months after the SEC data date (Mar 2026)",
+      "top_decile_lift": 2.8521126760563376,
+      "version": "fs-serve-08d9890c"
+    },
+    "solid-state-electrolytes": {
+      "auc": 0.7288160623858057,
+      "target": "First high-match Form D filing within 24 months after the SEC data date (Mar 2026)",
+      "top_decile_lift": 2.8521126760563376,
+      "version": "fs-serve-08d9890c"
+    }
+  },
+  "picks": [
+    {
+      "first_seen": "2020-12-21",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Model estimate 2.6%, 1.5 times the base rate of 1.7%."
+        },
+        {
+          "gate": "already_raised",
+          "passed": true,
+          "reason": "No Form D on record for this company."
+        },
+        {
+          "gate": "sbir_mill",
+          "passed": true,
+          "reason": "5 SBIR/STTR awards in 4 years; not an SBIR mill."
+        },
+        {
+          "gate": "own_match",
+          "passed": true,
+          "reason": "4 of its 5 own award abstracts match the thesis (best cosine 0.52, top 1% of all SBIR/STTR awards starts at 0.32)."
+        },
+        {
+          "gate": "funded_check",
+          "passed": true,
+          "reason": "No funding, acquisition or shutdown news found in web search, and [link] loads."
+        }
+      ],
+      "kind": "spinout",
+      "lead_id": "s:company:innotech precision medicine|MA",
+      "model_p": 0.0261,
+      "model_percentile": 0.8,
+      "name": "INNOTECH PRECISION MEDICINE, INC",
+      "rank": 1,
+      "record_ids": [
+        "nih:11350268",
+        "nih:11185068",
+        "nsf:2527720",
+        "sbir:45eac1fe31c154e7",
+        "uspto:11541393",
+        "sbir:b23b38e432ba9009"
+      ],
+      "score": 44.09,
+      "state": "MA",
+      "thesis_id": "crispr-diagnostics"
+    },
+    {
+      "first_seen": "2020-06-29",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Fresh trigger: SBIR Phase II: AJ12 - BIOCHAR-DERIVED GRAPHENE PRODUCTS FOR INCREASED CONCRETE STRENGTH AND SUSTAINABILITY (2026-06-29)."
+        },
+        {
+          "gate": "already_raised",
+          "passed": true,
+          "reason": "No Form D on record for this company."
+        },
+        {
+          "gate": "sbir_mill",
+          "passed": true,
+          "reason": "8 SBIR/STTR awards in 4 years; not an SBIR mill."
+        },
+        {
+          "gate": "own_match",
+          "passed": true,
+          "reason": "1 of its 8 own award abstracts match the thesis (best cosine 0.45, top 1% of all SBIR/STTR awards starts at 0.30)."
+        },
+        {
+          "gate": "funded_check",
+          "passed": true,
+          "reason": "No funding, acquisition or shutdown news found in web search, and [link] loads."
+        }
+      ],
+      "kind": "spinout",
+      "lead_id": "s:company:acadian research and development|WY",
+      "model_p": 0.0071,
+      "model_percentile": 0.1538,
+      "name": "ACADIAN RESEARCH & DEVELOPMENT LLC",
+      "rank": 1,
+      "record_ids": [
+        "usaspending:CONT_AWD_68HERF26C0012_6800_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_68HERC25C0028_6800_-NONE-_-NONE-",
+        "usaspending:ASST_NON_20243361043160_012",
+        "usaspending:CONT_AWD_68HERC24C0026_6800_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_68HERC24C0025_6800_-NONE-_-NONE-",
+        "sbir:6fed69f00bbce4d3"
+      ],
+      "score": 38.28,
+      "state": "WY",
+      "thesis_id": "direct-air-capture"
+    },
+    {
+      "first_seen": "2014-05-03",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "The researcher-to-founder model ranks them in the top 3% (ranking only)."
+        },
+        {
+          "gate": "corporate",
+          "passed": true,
+          "reason": "No company affiliation on the last known institution or most recent papers."
+        }
+      ],
+      "kind": "researcher",
+      "lead_id": "r:openalex_author:A5035758112",
+      "model_p": null,
+      "model_percentile": 0.9742,
+      "name": "Mercouri G. Kanatzidis",
+      "rank": 1,
+      "record_ids": [
+        "nsf:2003476",
+        "nsf:1920248",
+        "nsf:1838507",
+        "nsf:1708254",
+        "nsf:1410169",
+        "nsf:1104965"
+      ],
+      "score": 63.69,
+      "state": null,
+      "thesis_id": "perovskite-solar-cells"
+    },
+    {
+      "first_seen": "2016-04-15",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "The researcher-to-founder model ranks them in the top 37% (ranking only)."
+        },
+        {
+          "gate": "corporate",
+          "passed": true,
+          "reason": "No company affiliation on the last known institution or most recent papers."
+        }
+      ],
+      "kind": "researcher",
+      "lead_id": "r:openalex_author:A5005357564",
+      "model_p": null,
+      "model_percentile": 0.6326,
+      "name": "Michael J. Heben",
+      "rank": 2,
+      "record_ids": [
+        "nsf:1665172",
+        "nsf:1230246"
+      ],
+      "score": 62.2,
+      "state": null,
+      "thesis_id": "perovskite-solar-cells"
+    },
+    {
+      "first_seen": "2017-02-17",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Fresh trigger: SBIR Phase II, BEYOND SILICON, INC.: SBIR Phase II: Understanding the Lifetime of Perovskite/Silicon Tandems for Vehicle-Integrated Photovoltaic and Residential Applications (2026-09-01)."
+        },
+        {
+          "gate": "corporate",
+          "passed": true,
+          "reason": "No company affiliation on the last known institution or most recent papers."
+        }
+      ],
+      "kind": "researcher",
+      "lead_id": "r:openalex_author:A5068180002",
+      "model_p": null,
+      "model_percentile": null,
+      "name": "Zhengshan Jason Yu",
+      "rank": 3,
+      "record_ids": [
+        "nsf:2537786",
+        "nsf:2329871"
+      ],
+      "score": 74.38,
+      "state": null,
+      "thesis_id": "perovskite-solar-cells"
+    },
+    {
+      "first_seen": "2024-09-01",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Model estimate 6.9%, 1.8 times the base rate of 3.8%."
+        },
+        {
+          "gate": "already_raised",
+          "passed": true,
+          "reason": "No Form D on record for this company."
+        },
+        {
+          "gate": "sbir_mill",
+          "passed": true,
+          "reason": "2 SBIR/STTR awards in 2 years; not an SBIR mill."
+        },
+        {
+          "gate": "own_match",
+          "passed": true,
+          "reason": "1 of its 2 own award abstracts match the thesis (best cosine 0.49, top 1% of all SBIR/STTR awards starts at 0.27)."
+        },
+        {
+          "gate": "funded_check",
+          "passed": true,
+          "reason": "No funding, acquisition or shutdown news found in web search, and [link] loads."
+        }
+      ],
+      "kind": "spinout",
+      "lead_id": "s:company:beyond silicon|AZ",
+      "model_p": 0.0685,
+      "model_percentile": 1.0,
+      "name": "BEYOND SILICON, INC.",
+      "rank": 1,
+      "record_ids": [
+        "nsf:2537786",
+        "nsf:2423304"
+      ],
+      "score": 78.15,
+      "state": "AZ",
+      "thesis_id": "perovskite-solar-cells"
+    },
+    {
+      "first_seen": "2014-01-01",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "The researcher-to-founder model ranks them in the top 1% (ranking only)."
+        },
+        {
+          "gate": "corporate",
+          "passed": true,
+          "reason": "No company affiliation on the last known institution or most recent papers."
+        }
+      ],
+      "kind": "researcher",
+      "lead_id": "r:openalex_author:A5047195517",
+      "model_p": null,
+      "model_percentile": 0.9981,
+      "name": "Mark A. Kasevich",
+      "rank": 1,
+      "record_ids": [
+        "nsf:2552714",
+        "nsf:2409710",
+        "nsf:2016244"
+      ],
+      "score": 59.92,
+      "state": null,
+      "thesis_id": "quantum-sensing"
+    },
+    {
+      "first_seen": "2017-07-25",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "The researcher-to-founder model ranks them in the top 39% (ranking only)."
+        },
+        {
+          "gate": "corporate",
+          "passed": true,
+          "reason": "No company affiliation on the last known institution or most recent papers."
+        }
+      ],
+      "kind": "researcher",
+      "lead_id": "r:openalex_author:A5090528241",
+      "model_p": null,
+      "model_percentile": 0.6118,
+      "name": "Paola Cappellaro",
+      "rank": 2,
+      "record_ids": [
+        "nsf:2328774",
+        "nsf:1915218",
+        "nsf:1702716",
+        "nsf:1415345",
+        "nsf:1005926"
+      ],
+      "score": 62.24,
+      "state": null,
+      "thesis_id": "quantum-sensing"
+    },
+    {
+      "first_seen": "2022-12-22",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Model estimate 1.8%, 1.0 times the base rate of 1.7%."
+        },
+        {
+          "gate": "already_raised",
+          "passed": true,
+          "reason": "No Form D on record for this company."
+        },
+        {
+          "gate": "sbir_mill",
+          "passed": true,
+          "reason": "6 SBIR/STTR awards in 2 years; not an SBIR mill."
+        },
+        {
+          "gate": "own_match",
+          "passed": true,
+          "reason": "2 of its 6 own award abstracts match the thesis (best cosine 0.41, top 1% of all SBIR/STTR awards starts at 0.25)."
+        },
+        {
+          "gate": "funded_check",
+          "passed": true,
+          "reason": "No funding, acquisition or shutdown news found in web search, and [link] loads."
+        }
+      ],
+      "kind": "spinout",
+      "lead_id": "s:company:fieldline industries|CO",
+      "model_p": 0.0181,
+      "model_percentile": 0.75,
+      "name": "FieldLine Industries Inc",
+      "rank": 1,
+      "record_ids": [
+        "usaspending:CONT_AWD_80NSSC26C0242_8000_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_W5170126CA183_9700_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_W5170126CA083_9700_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_W5170126CA045_9700_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_FA254126CB006_9700_-NONE-_-NONE-",
+        "uspto:11867776"
+      ],
+      "score": 46.45,
+      "state": "CO",
+      "thesis_id": "quantum-sensing"
+    },
+    {
+      "first_seen": "2025-09-25",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Fresh trigger: SBIR Phase II: SBIR PHASE II ROBUST HIGHLY-MULTIPLEXED FIBER OPTIC SENSOR ARRAY FOR CRYOGENIC FLUID MANAGEMENT (2026-10-08)."
+        },
+        {
+          "gate": "already_raised",
+          "passed": true,
+          "reason": "No Form D on record for this company."
+        },
+        {
+          "gate": "sbir_mill",
+          "passed": true,
+          "reason": "3 SBIR/STTR awards in 2 years; not an SBIR mill."
+        },
+        {
+          "gate": "own_match",
+          "passed": true,
+          "reason": "1 of its 3 own award abstracts match the thesis (best cosine 0.35, top 1% of all SBIR/STTR awards starts at 0.25)."
+        },
+        {
+          "gate": "funded_check",
+          "passed": true,
+          "reason": "No funding, acquisition or shutdown news found in web search, and [link] loads."
+        }
+      ],
+      "kind": "spinout",
+      "lead_id": "s:company:opterro|CA",
+      "model_p": null,
+      "model_percentile": null,
+      "name": "OPTERRO, INC.",
+      "rank": 2,
+      "record_ids": [
+        "usaspending:CONT_AWD_80NSSC27C0032_8000_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_80NSSC26C0291_8000_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_80NSSC25C0278_8000_-NONE-_-NONE-"
+      ],
+      "score": 41.78,
+      "state": "CA",
+      "thesis_id": "quantum-sensing"
+    },
+    {
+      "first_seen": "2020-08-25",
+      "gates": [
+        {
+          "gate": "raise_signal",
+          "passed": true,
+          "reason": "Fresh trigger: SBIR Phase II: PHASE II SBIR (2026-09-25)."
+        },
+        {
+          "gate": "already_raised",
+          "passed": true,
+          "reason": "No Form D on record for this company."
+        },
+        {
+          "gate": "sbir_mill",
+          "passed": true,
+          "reason": "10 SBIR/STTR awards in 6 years; not an SBIR mill."
+        },
+        {
+          "gate": "own_match",
+          "passed": true,
+          "reason": "1 of its 10 own award abstracts match the thesis (best cosine 0.31, top 1% of all SBIR/STTR awards starts at 0.25)."
+        },
+        {
+          "gate": "funded_check",
+          "passed": true,
+          "reason": "No funding, acquisition or shutdown news found in web search, and [link] loads."
+        }
+      ],
+      "kind": "spinout",
+      "lead_id": "s:company:octave photonics|CO",
+      "model_p": 0.0025,
+      "model_percentile": 0.0625,
+      "name": "OCTAVE PHOTONICS LLC",
+      "rank": 3,
+      "record_ids": [
+        "usaspending:CONT_AWD_80NSSC26C0137_8000_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_80NSSC26C0284_8000_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_FA955026CB004_9700_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_W912CG26PA004_9700_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_80NSSC25C0276_8000_-NONE-_-NONE-",
+        "usaspending:CONT_AWD_N6426725C7071_9700_-NONE-_-NONE-"
+      ],
+      "score": 38.0,
+      "state": "CO",
+      "thesis_id": "quantum-sensing"
+    }
+  ],
+  "replays": {
+    "crispr-diagnostics": {
+      "formd_through_label": "SEC data through 2026 Q1",
+      "generated_at": "2026-11-14T00:23:06Z"
+    },
+    "direct-air-capture": {
+      "formd_through_label": "SEC data through 2026 Q1",
+      "generated_at": "2026-11-14T00:32:04Z"
+    },
+    "perovskite-solar-cells": {
+      "formd_through_label": "SEC data through 2026 Q1",
+      "generated_at": "2026-11-14T00:44:05Z"
+    },
+    "quantum-sensing": {
+      "formd_through_label": "SEC data through 2026 Q1",
+      "generated_at": "2026-11-13T06:05:59Z"
+    },
+    "solid-state-electrolytes": {
+      "formd_through_label": "SEC data through 2026 Q1",
+      "generated_at": "2026-11-14T00:13:34Z"
+    }
+  },
+  "sha256": "e4b6a4e99c5f7b88e90d36573f875f91bbed3016f351b799f8c10de7753ebfdb",
+  "ungated": false
+}

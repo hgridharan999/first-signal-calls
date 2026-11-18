@@ -17,4 +17,18 @@ This repository is a public, timestamped record of the companies and researchers
   The `sha256` in each JSON file is the hash of the sorted pick list.
 - **No contacts.** Nothing here contains an email, phone number or private note.
 
+## Expected hit rate
+
+About 2% of company picks file a first Form D within 24 months (the serve base rate is 1.7%). Top-tenth picks file about 1 time in 20. For a weekly snapshot, the expected number of hits is well under one. Judge the record on totals against the sum of the stated chances, not on named wins.
+
+Researcher picks use a different target: a company PI on an SBIR or STTR award, or a Form D executive or director, within 36 months. They are not first-Form-D predictions, so they are not counted in the first-filing total.
+
+## Verification window
+
+For first_raise picks, a filing counts if it is dated after the commit date and up to 24 months after the end of the SEC data stated in the file. For the 2026-11-16 snapshot, the SEC data end on 2026-03-31, so the window closes on 2028-03-31.
+
+## Corrections
+
+Dated corrections are in [corrections/](corrections/). The first is [corrections/2026-11-18.md](corrections/2026-11-18.md). It covers the 2026-11-16 snapshot. The original snapshot files are not edited.
+
 No license is granted by this note. It is a record, not a data release.
